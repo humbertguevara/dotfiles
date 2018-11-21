@@ -1,16 +1,42 @@
 
-1. Install xcode tools (necessary only for the command line's tools)
-  xcode-select --install
+Check In:
+-- https://www.youtube.com/watch?v=VC-pPFoW3zc
+-- w3cj/os-x-setup-commands.sh
 
-2. Install Brew (Mac OS package manager)
+-------------------------------------------------------------------------------------------------------------
+1. TO START
+-------------------------------------------------------------------------------------------------------------
+* Install xcode tools (necessary only for the command line's tools)
+  xcode-select --install
+-------------------------------------------------------------------------------------------------------------
+2. PACKAGE MANAGER / TERMINAL / BASH
+-------------------------------------------------------------------------------------------------------------
+* Install Brew (Mac OS package manager)
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew update
 
-3. Instal iTerm (https://www.iterm2.com/)
+* Instal iTerm (https://www.iterm2.com/)
   brew cask install iterm2  
   
-4. Instal bash ($oh my zsh!) via curl
+* Instal bash ($oh my zsh!) via curl
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+* Extras and unnecesary
+  - brew install fortune (quotes in terminal)
+  - brew install cowsay (quotes in terminal)
+  
+-------------------------------------------------------------------------------------------------------------
+3. OSX PRODUCTIVITY / WINDOWS MANAGMENT / QUICK LUNCH
+-------------------------------------------------------------------------------------------------------------
+* Windows managment (https://www.spectacleapp.com/)
+  - brew cask install spectacle
+* Spotlight (https://www.alfredapp.com/)
+  - brew cask install alfred
+
+-------------------------------------------------------------------------------------------------------------
+4. OS SETINGS FOR DOCS/FINDER 
+-------------------------------------------------------------------------------------------------------------
+* 
 
 5. Virtual machine (to have a separate environment for each projectP)
   - Vagrant
@@ -18,7 +44,3 @@
 
 6. Install git (via brew)
   brew install git
-
-7. Extras and unnecesary
-  - brew install fortune (quotes in terminal)
-  - brew install cowsay (quotes in terminal)
