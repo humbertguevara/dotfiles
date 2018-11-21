@@ -1,1 +1,24 @@
-Steps:
+
+1. Install xcode tools (necessary only for the command line's tools)
+  xcode-select --install
+
+2. Install Brew (Mac OS package manager)
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  brew update
+
+3. Instal iTerm (https://www.iterm2.com/)
+  brew cask install iterm2  
+  
+4. Instal bash ($oh my zsh!) via curl
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+5. Virtual machine (to have a separate environment for each projectP)
+  - Vagrant
+  - Virtual Box
+
+6. Install git (via brew)
+  brew install git
+
+7. Extras and unnecesary
+  - brew install fortune (quotes in terminal)
+  - brew install cowsay (quotes in terminal)
