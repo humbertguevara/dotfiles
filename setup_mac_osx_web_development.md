@@ -4,12 +4,10 @@
 * w3cj/os-x-setup-commands.sh
 
 ## TO START
--------------------------------------------------------------------------------------------------------------
 * Install xcode tools (necessary only for the command line's tools)
   xcode-select --install
   
 ## PACKAGE MANAGER / TERMINAL / BASH
--------------------------------------------------------------------------------------------------------------
 * Install Brew (Mac OS package manager)
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew update
@@ -25,14 +23,12 @@
   - brew install cowsay (quotes in terminal)
   
 ## OSX PRODUCTIVITY / WINDOWS MANAGMENT / QUICK LUNCH
--------------------------------------------------------------------------------------------------------------
 * Windows managment (https://www.spectacleapp.com/)
   - brew cask install spectacle
 * Spotlight (https://www.alfredapp.com/)
   - brew cask install alfred
 
 ## DEVELOPMENT TOOLS
-------------------------------------------------------------------------------------------------------------- 
 * Virtual machine (to have a separate environment for each projectP)
   - Vagrant
   - Virtual Box
