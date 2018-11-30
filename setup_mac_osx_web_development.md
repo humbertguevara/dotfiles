@@ -1,7 +1,7 @@
 
 # Check In:
 * https://www.youtube.com/watch?v=VC-pPFoW3zc
-* w3cj/os-x-setup-commands.sh
+* https://www.youtube.com/watch?v=5yXPfGfsurg
 
 ## TO START
 * Install xcode tools (necessary only for the command line's tools)
