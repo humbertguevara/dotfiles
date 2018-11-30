@@ -1,7 +1,7 @@
 
-Check In:
--- https://www.youtube.com/watch?v=VC-pPFoW3zc
--- w3cj/os-x-setup-commands.sh
+# Check In:
+* https://www.youtube.com/watch?v=VC-pPFoW3zc
+* w3cj/os-x-setup-commands.sh
 
 -------------------------------------------------------------------------------------------------------------
 1. TO START
