@@ -1,5 +1,5 @@
 
-# Check In:
+# CHECK IN
 * https://www.youtube.com/watch?v=VC-pPFoW3zc
 * https://www.youtube.com/watch?v=5yXPfGfsurg
 
@@ -17,26 +17,40 @@
   
 * Instal bash ($oh my zsh!) via curl
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-* Be sure to have in your fav in browser explainshell.com (for shell cmds help)
-
+  
 * Extras and unnecesary
   - brew install fortune (quotes in terminal)
   - brew install cowsay (quotes in terminal)
-  
-## OSX PRODUCTIVITY / WINDOWS MANAGMENT / QUICK LUNCH
+
+### Shell commands help
+* explainshell.com
+
+* TLDR
+  - npm install -g tldr
+
+## OSX PRODUCTIVITY / WINDOWS MANAGMENT / QUICK LUNCH / UTILS
 * Windows managment (https://www.spectacleapp.com/)
   - brew cask install spectacle
+  
 * Spotlight (https://www.alfredapp.com/)
   - brew cask install alfred
+  
+* Display colors 
+  - Flux
+
+* Break time
+  - https://www.dejal.com/timeout/
 
 ## DEVELOPMENT TOOLS
 * Virtual machine (to have a separate environment for each projectP)
   - Vagrant
   - Virtual Box
+  
 * Install git (via brew)
   - brew install git
+  
 * Node.JS
   - via nvm (https://github.com/creationix/nvm)
+  
 * Editors
   - brew cask install visual-sutdio-code
