@@ -18,6 +18,8 @@
 * Instal bash ($oh my zsh!) via curl
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+* Be sure to have in your fav in browser explainshell.com (for shell cmds help)
+
 * Extras and unnecesary
   - brew install fortune (quotes in terminal)
   - brew install cowsay (quotes in terminal)
