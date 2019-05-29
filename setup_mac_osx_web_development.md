@@ -2,6 +2,7 @@
 # CHECK IN
 * https://www.youtube.com/watch?v=VC-pPFoW3zc
 * https://www.youtube.com/watch?v=5yXPfGfsurg
+* https://mallinson.ca/posts/5/the-perfect-web-development-environment-for-your-new-mac
 
 ## TO START
 * Install xcode tools (necessary only for the command line's tools)
@@ -56,6 +57,6 @@
   - brew cask install visual-sutdio-code
 
 ## WEB SERVERS
-* Apache
+### Apache
 Apache already is included on OS X. Mountain Lion (10.8) was the first version of OS X without Apache in the “sharing” section of the preferences pane. We just need to start it up once using the terminal:
   - sudo apachectl start
