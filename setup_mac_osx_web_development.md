@@ -58,6 +58,14 @@
 * Editors
   - brew cask install visual-sutdio-code
 
+### PHP
+-------------------------------------------------------------------------------------------
+* Install Composer (php dependency manager)
+  - brew install composer
+
+* Install PHPUnit
+  - composer require phpunit/phpunit
+
 ## WEB SERVERS
 ### Apache
 Apache already is included on OS X. Mountain Lion (10.8) was the first version of OS X without Apache in the “sharing” section of the preferences pane. We just need to start it up once using the terminal:
