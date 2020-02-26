@@ -51,7 +51,10 @@
   
 * Node.JS
   - via nvm (https://github.com/creationix/nvm)
-  
+ 
+* Lite Server & ESLINT
+  - npm install -g lite-server eslint
+
 * Editors
   - brew cask install visual-sutdio-code
 
