@@ -1,0 +1,16 @@
+# 
+
+## Documentation
+  - https://mallinson.ca/posts/5/the-perfect-web-development-environment-for-your-new-mac
+  - https://jasonmccreary.me/articles/install-apache-php-mysql-mac-os-x/
+
+## 1. Installations
+
+  * Install xcode tools (necessary only for the command line's tools)
+      - xcode-select --install
+  
+  * Install Brew (Mac OS package manager):
+      - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    
+    if it's already installed proced to update it:
+      - brew update
