@@ -22,7 +22,7 @@
   - brew install fortune (quotes in terminal)
   - brew install cowsay (quotes in terminal)
 
-### BREW UTIL COMMANDS
+### Brew util commands
 * brew search iterm2
   - search if a package is on brew
 
