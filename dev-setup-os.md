@@ -1,5 +1,6 @@
 
 # CHECK IN
+* https://www.youtube.com/watch?v=tMNOpaQrfAE&t=4820s
 * https://www.youtube.com/watch?v=VC-pPFoW3zc
 * https://www.youtube.com/watch?v=5yXPfGfsurg
 
@@ -9,11 +10,11 @@
   
 ## PACKAGE MANAGER / TERMINAL / BASH
 * Install Brew (Mac OS package manager)
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew update
 
 * Instal iTerm (https://www.iterm2.com/)
-  brew cask install iterm2  
+  brew --cask install iterm2  
   
 * Instal bash ($oh my zsh!) via curl
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -36,36 +37,28 @@
   - npm install -g tldr
 
 ## OSX PRODUCTIVITY / WINDOWS MANAGMENT / QUICK LUNCH / UTILS
-* Windows managment (https://www.spectacleapp.com/)
-  - brew cask install spectacle
-  
+* Windows managment (https://www.spectacleapp.com/)  
 * Spotlight (https://www.alfredapp.com/)
-  - brew cask install alfred
-  
-* Display colors 
-  - Flux
+* Display colors (flux)
+* Break time (https://www.dejal.com/timeout/)
 
-* Break time
-  - https://www.dejal.com/timeout/
+## Web Browsers / Extensions / AdBloc / etc...
+* Chrome
+* Firefox
 
-## DEVELOPMENT TOOLS
+## DEVELOPMENT
+* Node.JS
+  - via nvm (https://github.com/creationix/nvm)
 * Virtual machine (to have a separate environment for each projectP)
   - Vagrant
   - Virtual Box
-  
-* Install git (via brew)
-  - brew install git
-  
-* Node.JS
-  - via nvm (https://github.com/creationix/nvm)
- 
 * Lite Server & ESLINT
-  - npm install -g lite-server eslint
+* Install git (via brew)
 
-* Editors
-  - brew cask install visual-sutdio-code
+## Code Editor (plus extensions and themes)
+* VSCode
 
-### PHP
+## PHP
 -------------------------------------------------------------------------------------------
 * Install Composer (php dependency manager)
   - brew install composer
@@ -74,6 +67,7 @@
   - composer require phpunit/phpunit
 
 ## WEB SERVERS
+------------------------------------------------------------------------------------------
 ### Apache
 Apache already is included on OS X. Mountain Lion (10.8) was the first version of OS X without Apache in the “sharing” section of the preferences pane. We just need to start it up once using the terminal:
   - sudo apachectl start
