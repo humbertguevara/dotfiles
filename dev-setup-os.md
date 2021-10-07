@@ -9,30 +9,19 @@
   xcode-select --install
   
 ## PACKAGE MANAGER / TERMINAL / BASH
-* Install Brew (Mac OS package manager)
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  brew update
-
+* Install Brew (MacOS package manager)
 * Instal iTerm (https://www.iterm2.com/)
-  brew --cask install iterm2  
-  
-* Instal bash ($oh my zsh!) via curl
-  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-  
-* Extras and unnecesary
-  - brew install fortune (quotes in terminal)
-  - brew install cowsay (quotes in terminal)
+* Instal bash ($oh my zsh!)
+* Extras for terminal (via brew)
+  - Fortune (quotes in terminal)
+  - Cowsay (capture quotes in terminal)
 
 ### Brew util commands
-* brew search iterm2
-  - search if a package is on brew
-
-* brew cask install iterm2
-  - install a package
+~ brew search iterm2            # search if a package is on brew 
+~ brew cask install iterm2      # install a package
 
 ### Shell commands help
 * explainshell.com
-
 * TLDR
   - npm install -g tldr
 
@@ -59,7 +48,6 @@
 * VSCode
 
 ## PHP
--------------------------------------------------------------------------------------------
 * Install Composer (php dependency manager)
   - brew install composer
 
@@ -67,7 +55,6 @@
   - composer require phpunit/phpunit
 
 ## WEB SERVERS
-------------------------------------------------------------------------------------------
 ### Apache
 Apache already is included on OS X. Mountain Lion (10.8) was the first version of OS X without Apache in the “sharing” section of the preferences pane. We just need to start it up once using the terminal:
   - sudo apachectl start
