@@ -1,19 +1,19 @@
 # VS Code Settings
 
-# Font
+## Font
 
 * [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
 
-# Extensions
+## Extensions
 
-## Themes/Color
+### Themes/Color
 
 * [Theme - Seti-Monokai](https://marketplace.visualstudio.com/items?itemName=SmukkeKim.theme-setimonokai)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer)
   * Matching parenthesis and curly brackets to with colors
 
-## Workflow
+### Workflow
 
 * [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
   * Adds the ability to create files anywhere in your workspace.
@@ -26,7 +26,7 @@
 * [Toggle Quotes](https://marketplace.visualstudio.com/items?itemName=BriteSnow.vscode-toggle-quotes)
   * cmd ' (ctrl ' on win/linux) will cycle the first quote pair found (from the start/end of the section) between ', ", `
 
-## IntelliSense/AutoComplete
+### IntelliSense/AutoComplete
 
 * [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
   * Provides CSS class name completion for the HTML class attribute based on the definitions found in your workspace or external files referenced through the link element
@@ -37,14 +37,14 @@
 * [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
   * Vue tooling
 
-## Style/Formatting
+### Style/Formatting
 
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   * Integrates ESLint JS
 * [Beautify](https://marketplace.visualstudio.com/items?itemName=hookyqr.beautify)
   * Automatically format javascript, JSON, CSS, Sass, and HTML files.
 
-## Useful/Extra
+### Useful/Extra
 
 * [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
   * Display inline the size of the required/imported package
@@ -53,9 +53,10 @@
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
   * Collaborative editing, debugging, and more inside VS Code
 
-# Settings
+## Settings
 
-```json
+Paste in VSCode settings.json (cmmd +p: > Preferences: Open Settings  JSON)
+
 {
     "editor.snippetSuggestions": "top",
     "editor.fontFamily": "Anonymous Pro",
@@ -63,7 +64,7 @@
     "workbench.colorTheme": "Seti Monokai",
     "editor.multiCursorModifier": "ctrlCmd",
     "files.autoSave": "onFocusChange",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "editor.fontSize": 21,
     "editor.formatOnPaste": false,
     "editor.minimap.enabled": false,
@@ -103,4 +104,146 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "workbench.startupEditor": "newUntitledFile"
 }
-```
+
+## Keybindings
+
+Paste in VSCode settings.json (cmmd +p: > Preferences: Open Keyborad Shortcuts  JSON)
+
+[
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "-workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "-workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "-workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "-workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "-workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "-workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "-workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "-workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+9",
+    "command": "-workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "cmd+6",
+    "command": "-workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "cmd+7",
+    "command": "-workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command": "-workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "cmd+5",
+    "command": "-workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "workbench.action.focusEighthEditorGroup"
+  },
+  {
+    "key": "cmd+8",
+    "command": "-workbench.action.focusEighthEditorGroup"
+  }
+]
