@@ -26,10 +26,11 @@
   - npm install -g tldr
 
 ## OSX PRODUCTIVITY / WINDOWS MANAGMENT / QUICK LUNCH / UTILS
-* Windows managment (https://www.spectacleapp.com/)  
-* Spotlight (https://www.alfredapp.com/)
-* Display colors (flux)
+* Windows managment | Spectaculus (https://www.spectacleapp.com/)  
+* Spotlight | Alfredo (https://www.alfredapp.com/)
+* Display colors | Flux (https://justgetflux.com/)
 * Break time (https://www.dejal.com/timeout/)
+* Mac stats | iStat Menu (https://bjango.com/mac/istatmenus/)
 
 ## Web Browsers / Extensions / AdBloc / etc...
 * Chrome

@@ -1,20 +1,29 @@
-PKief.material-icon-theme
 ritwickdey.LiveServer
+PKief.material-icon-theme
+esbenp.prettier-vscode
+aaron-bond.better-comments
+CoenraadS.bracket-pair-colorizer
+xabikos.vscode-javascript
+Microsoft.vscode-eslint
+eamodio.vscode-gitlens
+pranaygp.vscode-css-peek
+editorconfig.editorconfig-vscode
 
-#
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+
+
+# From CJ3
 alexcvzz.vscode-sqlite
 andys8.jest-snippets
+
 apollographql.vscode-apollo
 austincummings.razor-plus
 bobsparadox.seti-black
 BriteSnow.vscode-toggle-quotes
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
-CoenraadS.bracket-pair-colorizer
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-formulahendry.auto-close-tag
-formulahendry.auto-rename-tag
+ 
 fosshaas.fontsize-shortcuts
 ginfuru.ginfuru-onedark-raincoat-theme
 glitch.glitch

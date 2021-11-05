@@ -2,9 +2,11 @@
 
 ## Font
 
-* [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
+[Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
 
 ## Extensions
+
+See vscode-extensiomns.txt on this repo
 
 ### Themes/Color
 
@@ -58,51 +60,55 @@
 Paste in VSCode settings.json (cmmd +p: > Preferences: Open Settings  JSON)
 
 {
-    "editor.snippetSuggestions": "top",
-    "editor.fontFamily": "Anonymous Pro",
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.colorTheme": "Seti Monokai",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "files.autoSave": "onFocusChange",
-    "editor.tabSize": 4,
-    "editor.fontSize": 21,
-    "editor.formatOnPaste": false,
-    "editor.minimap.enabled": false,
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 0,
-    "terminal.integrated.fontSize": 16,
-    "explorer.openEditors.visible": 0,
-    "window.zoomLevel": 1,
-    "emmet.showAbbreviationSuggestions": false,
-    "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#C6FF00",
-        "list.activeSelectionForeground": "#C6FF00",
-        "list.inactiveSelectionForeground": "#C6FF00",
-        "list.highlightForeground": "#C6FF00",
-        "scrollbarSlider.activeBackground": "#C6FF0050",
-        "editorSuggestWidget.highlightForeground": "#C6FF00",
-        "textLink.foreground": "#C6FF00",
-        "progressBar.background": "#C6FF00",
-        "pickerGroup.foreground": "#C6FF00",
-        "tab.activeBorder": "#C6FF00",
-        "notificationLink.foreground": "#C6FF00"
+  "editor.snippetSuggestions": "top",
+  "editor.fontFamily": "Anonymous Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Seti Monokai",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 4,
+  "editor.fontSize": 20,
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 0,
+  "terminal.integrated.fontSize": 16,
+  "explorer.openEditors.visible": 0,
+  "window.zoomLevel": 1,
+  "emmet.showAbbreviationSuggestions": false,
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#C6FF00",
+    "list.activeSelectionForeground": "#C6FF00",
+    "list.inactiveSelectionForeground": "#C6FF00",
+    "list.highlightForeground": "#C6FF00",
+    "scrollbarSlider.activeBackground": "#C6FF0050",
+    "editorSuggestWidget.highlightForeground": "#C6FF00",
+    "textLink.foreground": "#C6FF00",
+    "progressBar.background": "#C6FF00",
+    "pickerGroup.foreground": "#C6FF00",
+    "tab.activeBorder": "#C6FF00",
+    "notificationLink.foreground": "#C6FF00"
+  },
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
     },
-    "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        }
-    ],
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "workbench.startupEditor": "newUntitledFile"
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "workbench.startupEditor": "newUntitledFile",
+  "material-icon-theme.folders.color": "#ef5350",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.tabWidth": 4
 }
 
 ## Keybindings
